@@ -17,7 +17,7 @@
 ```
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install openpyxl eth_account
 
 python main.py
 
@@ -28,10 +28,9 @@ Windows
 pip install virtualenv
 virtualenv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install openpyxl eth_account
 
 python main.py
 ```
-
 
 
