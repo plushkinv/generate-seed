@@ -12,23 +12,22 @@
 Скрипт чувствителен к папке из которой вы его запускаете (влияет на пути к файлам)!
 
 
-Установка и запуск: Linux/Mac
+# Установка и запуск:
 
+Linux/Mac - https://www.youtube.com/watch?v=8rJ-96cPFwU
 ```
 python -m venv .venv
 source .venv/bin/activate
-pip install openpyxl eth_account
+pip install -r requirements.txt
 
 python main.py
-
 ```
-Windows
-
+Windows - https://www.youtube.com/watch?v=EqC42mnbByc
 ```
 pip install virtualenv
 virtualenv .venv
 .venv\Scripts\activate
-pip install openpyxl eth_account
+pip install -r requirements.txt
 
 python main.py
 ```
